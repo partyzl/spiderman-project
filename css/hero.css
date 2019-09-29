@@ -32,7 +32,7 @@ header img{
 main{
 	max-width: 800px;
 	margin: 0 auto;
-	padding: 0 20px;
+	padding: 20px;
 
 }
 
@@ -41,8 +41,9 @@ main img{
 }
 
 h2{
-	font-size: 35px;
+	font-size: 50px;
 	color:blue;
+	margin: 40px 0px 10px;
 
 }
 
@@ -50,7 +51,26 @@ a{
 	color: blue;
 }
 a:hover{
-	color: #483a94;
+	color: white;
+	background-color: #483a94;
 }
 
+footer{
+background-color: red;
+	text-align: center;
+	padding: 50px;
 
+}
+
+footer p{
+	margin: 0;
+}
+
+p.caption{
+	color: #555555;
+	font-size: 15px;
+	padding: 0px;
+	text-align: right;
+	font-style: italic;
+	margin-top: 0;
+}
